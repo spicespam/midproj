@@ -1,0 +1,28 @@
+/*stylesheet*/
+
+table, th, td {
+	border:2px solid red;
+}
+
+p {
+	color:indianred;
+}
+
+#students {
+	font-weight:bold;
+	color:blue;
+}
+
+#idoodle {
+	font-weight:bold;
+	color:green;
+}
+
+.header {
+	background-color:red;
+	color:white;
+}
+
+#course {
+	color:red;
+}

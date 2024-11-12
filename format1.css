@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Fontstuck';
+    src: url("font/fontstuck.ttf");
+}
+
+body {
+    margin: 0px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background-color: rgb(27, 0, 23);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #580547;
+    border-radius: 5px;
+  }
+
+.nameHolder {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.nameBox {
+    width: 50%;
+    background-color: #580547;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    font-family: 'Fontstuck';
+}
+
+
+.firstImage {
+    position: relative;
+    background-image: url("images/selfbanner.png");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.secondImage {
+    position: relative;
+    background-image: url("images/checkers.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.divider {
+    height:fit-content;
+    background-color:rgb(27, 0, 23);
+    color:white;
+    font-size:18px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    border: 15px solid rgb(27, 0, 23);
+}
+
+a:link {
+    color: #fff;
+}
+
+a:visited {
+    color:violet;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+a:active {
+    color:lightgoldenrodyellow;
+}

@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Fontstuck';
+    src: url(font/fontstuck.ttf);
+}
+
+body {
+    background-image: url(images/cyber-space-purple-haze.jpg);
+}
+
+::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+        background-color: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+        background: #b70031;
+        border-radius: 5px;
+}
+
+
+
+div {
+    border-radius: 5px;
+    background-color: #510558;
+    padding: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    font-family: 'Fontstuck';
+    line-height: 150%;
+    color: white;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: rgb(255, 192, 243);
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+input[type=submit] {
+    font-family: 'Fontstuck';
+    width: 100%;
+    background-color: rgb(235, 142, 218);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    font-family: 'Fontstuck';
+    width: 100%;
+    background-color: rgb(122, 131, 227);
+    color: lightgoldenrodyellow;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:active {
+    font-family: 'Fontstuck';
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+textarea {
+    background-color: rgb(255, 192, 243);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
